@@ -1,0 +1,63 @@
+Wizja produktu:
+
+Aplikacja oparta o AI, która analizuje zdjęcia (np. wykresów, screenów z TradingView i portfeli) oraz przetwarza zwykłe dane wpisane z palca i na tej podstawie ocenia sytuację rynkową dla:
+crypto marketów i rynków tradycyjnych.
+
+Co konkretnie robi ta aplikacja?
+1. Użytkownik uploaduje zdjęcie z wykresem rynku i widoczną ceną,
+2. AI: 
+  - rozpoznaje co jest na zdjęciu,
+  - identyfikuje instrument (np. BTC/UDST, BTC/ETH)
+  - analizuje układ (trend, wsparcie, opór, formacje, kroczące)
+  - w oparciu o pierwotne założenie analizy rynku na podstawie również danych globalnych, wyszukuje najnowsze informacje dotyczące rynków na świecie i analizuje układ wykresu w oparciu o te dane
+3. Zwraca użytkownikowi:
+  - ocenę rynku długoterminowo (Byczo, Niedźwiedzio, Konsolidacja dystrybucyjna, Konsolidacja wznosząca)
+  - Small talk - analiza wg. AI
+  - Potencjalne sceniariusze (np. wybicie / korekta / fakeout)
+  - Poziomy wejścia i wyjścia
+  - Czy wchodzić w rynek lub czy wyjść z rynku (pozycje LONG / SHORT w odniesieniu MICRO / MAKRO)
+
+
+
+
+Backlog:
+
+Frontend projektu:
+- Widok LandingPage
+- Upload zdjęcia (D&D, ręcznie) / Wpisanie wartości rynku, który chcemy przeanalizować
+- Widok wyniku analizy
+- Obsługa błędów (np. złe zdjęcie)
+- UI
+
+Backend projektu:
+- Utworzenie endpointów
+- Przyjmowanie zdjęć (multipart/form-data)
+- Kolejkowanie zdjęcia
+- Integracja z modułem AI
+- Moduły (JS)
+- Zwracanie wyniku
+
+AI:
+- OCR (rozpoznanie tekstu z wykresu)
+- Klasyfikacja wykresu (typ crypto / tradycyjny)
+- Detekcja:
+  - ceny
+  - trendu
+  - poziomów
+  - świec
+  - potencjalnych wskaźników (jeżeli użytkownik je ma, jeżeli nie - AI sama przeanalizuje wykres na podstawie konkretnych wskaźników)
+- Generowanie opisu (LLM)
+
+
+User Flow:
+1. Użytkownik wrzuca zdjęcie
+2. Backend zapisuje i wysyła do AI
+3. AI:
+ - analizuje obraz
+ - sprawdza dane rynkowe, sentymenty i dane globalne
+ - generuje wynik
+4. Backend --> Frontend
+5. Użytkownik widzi:
+ - kierunek rynku
+ - analizę
+ - sugestie

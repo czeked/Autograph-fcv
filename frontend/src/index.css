@@ -1,0 +1,7 @@
+﻿/* Global reset — all page styles live in AiAnalyzer.css / AiTrader.css / App.css */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

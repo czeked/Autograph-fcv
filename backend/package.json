@@ -1,0 +1,35 @@
+{
+  "name": "autograph",
+  "version": "1.0.0",
+  "description": "Autograph - AI Trading Analysis",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "start:dividends": "node dividends.js",
+    "dev:dividends": "node --watch dividends.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czeked/Autograph.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/czeked/Autograph/issues"
+  },
+  "homepage": "https://github.com/czeked/Autograph#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.15.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "uuid": "^13.0.0",
+    "ws": "^8.20.0",
+    "yahoo-finance2": "^2.14.2"
+  }
+}
