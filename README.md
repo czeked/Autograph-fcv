@@ -57,3 +57,13 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/czeked/Autograph-fcv.git
+cd Autograph-fcv
+cd frontend
+npm install
+npm run dev
+```
+Next, in a second terminal window:
+```bash
+cd backend
+npm install
+node index.js
