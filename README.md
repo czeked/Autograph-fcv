@@ -22,6 +22,7 @@ The project was developed as part of a software development project, with a focu
 - CSS3
 - Git
 - AI development tools
+- APIs
 
 ## 🎨 Design
 
