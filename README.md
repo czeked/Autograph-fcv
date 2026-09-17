@@ -17,6 +17,7 @@ The project was developed as part of a software development project, with a focu
 
 - React
 - JavaScript
+
 - HTML5
 - CSS3
 - Git
@@ -41,7 +42,14 @@ My responsibilities included:
 
 ## 📸 Preview
 
-_Add screenshots of the application here._
+<img width="1919" height="938" alt="image" src="https://github.com/user-attachments/assets/7e0ed410-4c53-4cf7-ae41-8a456efb33a7" />
+<img width="1917" height="942" alt="image" src="https://github.com/user-attachments/assets/0b25aabb-b871-4c47-9364-56cf9da14c17" />
+<img width="1919" height="936" alt="image" src="https://github.com/user-attachments/assets/82dc382e-5539-44ac-9163-650edd4517d8" />
+<img width="1919" height="942" alt="image" src="https://github.com/user-attachments/assets/b04394f2-57d9-4399-8e82-45920f9641b7" />
+<img width="1918" height="942" alt="image" src="https://github.com/user-attachments/assets/e74fa867-a2f6-4515-8f31-8c0bb4635bdf" />
+<img width="1919" height="939" alt="image" src="https://github.com/user-attachments/assets/1d4c50b1-d2d0-4326-92b9-59528f6c4ea8" />
+
+
 
 ## 🔧 Installation
 
